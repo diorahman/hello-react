@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "build": "browserify -t reactify main.js > app.js"
+  },
   "devDependencies": {
     "react": "^0.12.2",
     "reactify": "^1.0.0"
